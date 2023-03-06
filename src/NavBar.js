@@ -14,7 +14,7 @@ const NavBar = () => {
 export default NavBar;
 
 const TopMenu = styled.div`
-    height: 10vh;
+    height: 100vh;
     display: flex;
     background-color: #E9AC06;
     margin-right: 1em;

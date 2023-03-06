@@ -10,10 +10,9 @@ function App() {
     }}>
       <NavBar></NavBar>
       <div className='map' style={{
-        width: "50px",
+        width: "100px",
         height: "50px"
       }}>
-        
       </div>
     </div>
   );
