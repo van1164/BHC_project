@@ -4,6 +4,15 @@ public class Create_account_param {
     String id;
     String pw;
     String Nick;
+    String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public String getId() {
         return id;
