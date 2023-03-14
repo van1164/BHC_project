@@ -48,8 +48,8 @@ public class UserController {
 
     @ResponseBody
     @PostMapping("login")
-    public String Login(Login_param param) throws JsonProcessingException {
-
+    public String Login(@RequestBody Login_param param) throws JsonProcessingException {
+        System.out.println(param.getId());
         Criteria criteria = new Criteria("ID");
         criteria.is(param.getId());
         Query query = new Query(criteria);
